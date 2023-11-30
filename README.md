@@ -1,38 +1,11 @@
-## Using clustering algorithm to segment customers
+# Cricket-Player-Performance-Prediction
 
+Introduction
+A cricket match prediction enhances and develops interest for a viewer watching a cricket match. Apart from having pleasure while watching a game, it also assists individuals in creating their Dream XI squad. The model predicts an individual player's performance by taking into account the elements related to the performance.
 
+Cricket player performance prediction
+Cricket player performance prediction is a model that predicts the amount of runs scored by a batter with a specific number of balls encountered and inside a specific over. It comprises of a dataset of players' prior performance records. The model basically assesses that specific player's historical performance combined with the other factors and produces predicted value.
 
-### Introduction
+To predict, it requires specific information such as the player's name and the name of the opposing team, followed by the number of balls that player may encounter within a specified time frame (i.e. 50 or inside).
 
-_Every person is different and so is their behavior as customers_. 
-  
-Imagine you are the owner of a shop. It doesn't matter if you own an e-commerce or a  supermarket. It doesn't matter if it is a small shop or a huge company such as Amazon or Netflix, it's better to know your customers.  
-  
-Machine learning comes in handy for this task. Particularly, clustering, the most important unsupervised learning problem, is able to create categories grouping similar individuals.  
-  
-These categories are called clusters. A cluster is a collection of points in a dataset. These points are more similar between them than they are to points belonging to other clusters. Distance-based clustering groups the points into some number of clusters such that distances within the cluster should be small while distances between clusters should be large.  
-  
-  ## Purpose
-
-The goal of this project is to:
-  
-1) Perform an exploratory analysis on the dataset.
-2) Check that the assumptions K-means makes are fulfilled.
-3) Apply K-means clustering algorithm in order to segment customers.
-
-## Data Set Information
-
-The csv file corresponding used herein was downloaded from [Kaggle repository](https://www.kaggle.com/akram24/mall-customers).
-The dataset contains data about customers from a Mall. The information gather is: `Customer ID`, `Age`, `Annual Income (k$)`, `Spending Score (1-100)`.
-
-## Analysis
-
-This repository contains two files:
-
-- `clustering_analysis.ipybn`: In this jupyter notebook, exploratory data analysis is performed. Moreover, the algorithm assumptions are checked. K-means is applied to segment customers obtaining a graph and the customer segments. It is also shown how to predict to which segment a new customers belongs to. 
-- `customers.csv` dataset used to perform the analysis.
-
-The whole analysis was done using JupyterLab and Python, using libraries such as: pandas, numpy, matplotlib, and scikit-learn.
-
-![]()
-
+Regression Method (Supervised Learning), in which data is tested and trained before being utilised for prediction. Unlike Unsupervised, here the data has a label and is taught based on it. They are classified as dependent and independent variables, with dependent being the label that we are attempting to predict and independent variables being the other attributes. We can apply several regressors and select the best accurate regression to predict the correct outcome.
